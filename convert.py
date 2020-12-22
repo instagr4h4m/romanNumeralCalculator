@@ -21,6 +21,7 @@ def validate(number):
      return number
     except:
       print("Invalid symbols. Please enter an integer number.")
+      number = input()
   return number
 
 # A method that converts numbers under 10 to Roman numerals
